@@ -1,0 +1,33 @@
+.background {
+    background: linear-gradient(to right,grey,silver);
+    height: 200px;
+}
+.backgPerc {
+    background-color: skyblue;
+    height:134px;
+}
+.backg {
+    background-color: skyblue;
+    height: 110px;
+}
+div.back {
+    background-color: blue;
+}
+.part {
+    width: 50%;
+}
+.rightA{
+    margin-right: 10px;
+    margin-top: 55px;
+}
+.leftA{
+    margin-left: 400px;
+}
+
+.xyz{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}

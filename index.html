@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background">
+   <center><h1 style="color: white;">Tiidelab Calculator</h1></center>
+    <br>
+<div class="backg">
+    <div class="xyz">
+        <div class="part">
+            <div class="leftA">
+    <p class="p"></p>
+
+    <h3 style="line-height: 1em;">1. Square of Number</h3>
+    <input id="sqrNum" type="text"> 
+    <br><span id="ssqr"></span><br><br>
+</div>
+</div>
+<div class="part">
+<div class="rightA">
+    <button id="bsqr" value="calculate1" onclick="squareNumber()">Calculate</button>
+    <br>
+</div>
+</div>
+</div>
+</div><br>
+<div class="backg">
+    <div class="xyz">
+        <div class="part">
+            <div class="leftA">
+    <p class="p"></p>
+    <h3 style="line-height: 1em;">2. Half of a Number</h3>
+    <input id="hlfNum" type="text">
+
+    <br><span id="shlf"></span><br><br>
+</div>
+</div>
+<div class="part">
+<div class="rightA">
+    <button id="bhlf" value="calculate2" onclick="halfNumber()">Calculate</button>
+    <br>
+</div>
+</div>
+</div>
+</div><br>
+<div class="backgperc" style="background-color: skyblue;">
+    <div class="xyz">
+        <div class="part">
+            <div class="leftA">
+    <h3 style="line-height: 1em;">3. percentage of two numbers</h3>
+    <input id="pOfNum1" type="text"> 
+    <br> of <br>
+    <input id="pOfNum2" type="text">
+
+    <br> <span id="sperc"></span><br><br>
+</div>
+</div>
+<div class="part">
+<div class="rightA">
+    <button id="bperc" value="calculate3" onclick="percentOf()">Calculate</button>
+    <br>
+</div>
+</div>
+</div>
+</div><br>
+<div class="backg">
+    <div class="xyz">
+        <div class="part">
+            <div class="leftA">
+    <h3 style="line-height: 1em;">4. Area of a Circle using Radius</h3>
+    <input id="radius" type="text">
+
+    <br> <span id="sarea"></span><br><br>
+</div>
+</div>
+<div class="part">
+<div class="rightA">
+    <button id="barea" value="calculate4" onclick="circleArea()">Calculate</button>
+    <br>
+</div>
+</div>
+</div>
+</div><br>
+<div class="backg">
+    <div class="xyz">
+        <div class="part">
+            <div class="leftA">
+    <h3 style="line-height: 1em;">5. Strings of Operation</h3 style="line-height: 1em;">
+    <input id="finalNumber" type="text">
+    <br><span id="sfinal"></span><br><br>
+</div>
+</div>
+<div class="part">
+<div class="rightA">
+    <button id="bfinal" value="calculate5" onclick="fullOperation()">Calculate</button>
+<br>
+</div>
+</div>
+</div>
+</div>
+    <script src="calculatorApp.js"></script>
+</body>
+</html>
